@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>Boolean variables</key>
+		<dict>
+			<key>Definition</key>
+			<string>Variables whose values are the truth values `true` and `false`, usually denoted by `1` and `0` respectively.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Basics/Logic%20Gates</string>
+				<key>Title</key>
+				<string>Logic Gates</string>
+			</dict>
+		</dict>
+		<key>truth table</key>
+		<dict>
+			<key>Definition</key>
+			<string>A truth table has one column for each input variable and one final column showing all of the possible results. Each row of the table contains one possible configuration of the input variables and the result of the operation for those values. </string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Basics/Logic%20Gates</string>
+				<key>Title</key>
+				<string>Logic Gates</string>
+			</dict>
+		</dict>
+		<key>logic minimization</key>
+		<dict>
+			<key>Definition</key>
+			<string>Using a variety of techniques to obtain the simplest gate-level implementation of a Boolean function. &quot;Simplicity&quot; depends on the metric being used.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Advanced/Advanced%201</string>
+				<key>Title</key>
+				<string>logic minimization</string>
+			</dict>
+		</dict>
+		<key>De Morgan&apos;s laws</key>
+		<dict>
+			<key>Definition</key>
+			<string>NOR(x,y) = NOT(OR(x, y)) = AND(NOT(x), NOT(Y))
+
+NAND(x,y) = NOT(AND(x, y)) = OR(NOT(x), NOT(Y))
+</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Advanced/Advanced%201</string>
+				<key>Title</key>
+				<string>De Morgan&apos;s laws</string>
+			</dict>
+		</dict>
+		<key>AND gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>A `true` output results **only** if all the inputs to the gate are `true`.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Basics/Logic%20Gates</string>
+				<key>Title</key>
+				<string>AND gate</string>
+			</dict>
+		</dict>
+		<key>OR gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>A `true` output results if one or both of the inputs to the gate are `true`.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Basics/Logic%1Gates</string>
+				<key>Title</key>
+				<string>OR gate</string>
+			</dict>
+		</dict>
+		<key>NOT gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>If the applied input is `false` then the output becomes `true` and vice versa.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Basics/Logic%20Gates</string>
+				<key>Title</key>
+				<string>NOT gate</string>
+			</dict>
+		</dict>
+		<key>NOR gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>The output is `true` **only** if both its inputs are `false`.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Intermediate/More%20Gates</string>
+				<key>Title</key>
+				<string>NOR gate</string>
+			</dict>
+		</dict>
+		<key>NAND gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>The output is `false` **only** if both its inputs are `true`.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Intermediate/More%20Gates</string>
+				<key>Title</key>
+				<string>NAND gate</string>
+			</dict>
+		</dict>
+		<key>XOR gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>The output is `true` if the inputs are different.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Basics/Logic%20Gates</string>
+				<key>Title</key>
+				<string>NOT gate</string>
+			</dict>
+		</dict>
+		<key>XNOR gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>The output is `true` if the inputs are same.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Intermediate/More%20Gates</string>
+				<key>Title</key>
+				<string>XNOR gate</string>
+			</dict>
+		</dict>
+		<key>universal logic gate</key>
+		<dict>
+			<key>Definition</key>
+			<string>A universal logic gate is a logic gate that can be used to construct all other logic gates. NAND gate and NOR gate are universal gates.</string>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Intermediate/More%20Gates</string>
+				<key>Title</key>
+				<string>universal logic gate</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

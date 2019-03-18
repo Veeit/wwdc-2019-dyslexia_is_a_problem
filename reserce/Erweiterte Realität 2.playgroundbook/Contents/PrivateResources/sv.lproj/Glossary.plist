@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>algorithm</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hur kameran ser</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Anvisningar steg-för-steg eller regler för att lösa ett problem. Exempelvis kan en lista över stegen som krävs för att göra en kopp te betraktas som en algoritm.</string>
+				<key>Title</key>
+				<string>algoritm</string>
+			</dict>
+		</dict>
+		<key>augment</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hur kameran ser</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Att förbättra eller lägga till. *Förstärkt verklighet* presenterar en verklig scen där du har lagt till digitala objekt och bilder.</string>
+				<key>Title</key>
+				<string>förstärk</string>
+			</dict>
+		</dict>
+		<key>axis</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hur kameran ser</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En tänkt linje som används till att visa riktningar i en koordinatrymd. Du kanske har sett grafer tidigare som använder *X* och *Y* som märkning för axlarna. När du jobbar med 3D-rymder har du *X*, *Y* och *Z*. I det här fallet representerar *X* och *Z* höger, vänster, framåt och bakåt. *Y* representerar uppåt och nedåt.
+                </string>
+				<key>Title</key>
+				<string>axel</string>
+			</dict>
+		</dict>
+		<key>feature point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hur kameran ser</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En av flera små vita prickar du ser i en AR-scen. De representerar *innehåll* som iPad identifierar som viktigt för att visualisera scenen. Innehållspunkter representerar din iPads modell av det den ”ser” genom kameraobjektivet.</string>
+				<key>Title</key>
+				<string>innehållspunkt</string>
+			</dict>
+		</dict>
+		<key>plane</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/02.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Plana runt</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>En platt digital yta att placera saker på.</string>
+				<key>Title</key>
+				<string>plan</string>
+			</dict>
+		</dict>
+		<key>point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/03.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>En figur är född!</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Inom matematiken är det här en specifik punkt i rymden. En punkt representeras vanligtvis med *x*- och *y*-värden för de horisontella och vertikala axlarna.</string>
+				<key>Title</key>
+				<string>punkt</string>
+			</dict>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/05.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Lekdags!</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Ett ”skinn” eller omslag som läggs över ett digitalt objekt i en datorgenererad scen. Till exempel består Hoppers kropp av gröna och rosaröda texturer.</string>
+				<key>Title</key>
+				<string>textur</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
