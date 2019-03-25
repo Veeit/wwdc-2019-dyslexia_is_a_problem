@@ -31,7 +31,7 @@ I wanted to show people the power of ML and explain that dyslexia is a real prob
  The emnist dataset is an extended version of the mnist dataset. The letter version of emnist provides 103k images in total, 88k for training and 14.8k for testing.
 
 
- #About dyslexia:
+ # About dyslexia:
  
  Dyslexia is a problem which have 20% of all people, I´m one of them. the biggest problems are in school. The most common problem is that the people with dyslexia spell like they hear the words, but you know that it is often not the case. People with this problem can get in a lot of trouble in jobs or in school. I want to show you how hard it can be to bead dylexia.
  
