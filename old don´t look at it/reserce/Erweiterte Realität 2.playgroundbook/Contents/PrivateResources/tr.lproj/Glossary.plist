@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>algorithm</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Kamera Nasıl Görür</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir sorunu çözmek için kullanılan adım adım yönerge veya kural kümesi. Örneğin bir bardak çay hazırlamak için kullanılan adımların listesi bir algoritma sayılabilir.</string>
+				<key>Title</key>
+				<string>algoritma</string>
+			</dict>
+		</dict>
+		<key>augment</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Kamera Nasıl Görür</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Geliştirmek, ekleme yapmak veya artırmak. *Artırılmış gerçeklik*, üzerine dijital nesneler ve görüntüler eklediğin gerçek hayattan bir sahneyi temsil eder.</string>
+				<key>Title</key>
+				<string>artırma</string>
+			</dict>
+		</dict>
+		<key>axis</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Kamera Nasıl Görür</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Koordinat uzayında yönleri belirtmek için kullanılan sanal bir çizgi. Eksenlerini etiketlemek için *X* ve *Y* kullanan grafikleri daha önce görmüş olmalısın. 3B uzayda *X*, *Y* ve *Z* eksenleriyle çalışırsın. Bu durumda, *X* ve *Z* sağ ile solu ve ön ile arkayı temsil eder. *Y*, yukarı ile aşağıyı temsil eder.
+                </string>
+				<key>Title</key>
+				<string>eksen</string>
+			</dict>
+		</dict>
+		<key>feature point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Kamera Nasıl Görür</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bir artırılmış gerçeklik sahnesinde gördüğün ve iPad’in sahneyi görselleştirmek açısından önemli bulduğu bir *özelliği* temsil eden birçok küçük beyaz noktadan biri. Özellik noktaları, iPad modelinin kamera objektifi yoluyla “gördüklerini” temsil eder.</string>
+				<key>Title</key>
+				<string>özellik noktası</string>
+			</dict>
+		</dict>
+		<key>plane</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/02.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Düzlem Avı</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Üzerine nesnelerin koyulacağı düz bir dijital yüzey.</string>
+				<key>Title</key>
+				<string>düzlem</string>
+			</dict>
+		</dict>
+		<key>point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/03.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Bir Karakter Doğdu!</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Matematikte uzaydaki bir nokta. Nokta genellikle yatay ve düşey eksenler için sırasıyla bir *x* değeri ve bir *y* değeriyle gösterilir.</string>
+				<key>Title</key>
+				<string>nokta</string>
+			</dict>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/05.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Oyun Zamanı!</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bilgisayar tarafından oluşturulan bir sahnede dijital nesnenin üzerine geçirilen bir “deri” veya kaplama. Örneğin Hopper’ın vücudu yeşil ve pembemsi kırmızı bir dokudan oluşmuştur.</string>
+				<key>Title</key>
+				<string>doku</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

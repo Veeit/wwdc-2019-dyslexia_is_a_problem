@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>algorithm</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hoe de camera waarneemt</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een stapsgewijze set instructies of regels voor het oplossen van een probleem. Bijvoorbeeld: een recept voor het maken van een taart zou je kunnen beschouwen als een algoritme.</string>
+				<key>Title</key>
+				<string>algoritme</string>
+			</dict>
+		</dict>
+		<key>augment</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hoe de camera waarneemt</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Bij *augmented reality* (lett. toegevoegde werkelijkheid) voeg je digitale objecten en afbeeldingen aan een tafereel uit de werkelijkheid toe.</string>
+				<key>Title</key>
+				<string>augmented reality</string>
+			</dict>
+		</dict>
+		<key>axis</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hoe de camera waarneemt</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een denkbeeldige lijn die wordt gebruikt om richtingen in een ruimte met coördinaten aan te geven. Misschien heb je wel eens grafieken gezien met de labels *X* en *Y* op de assen. Een 3D-ruimte bevat de assen *X*, *Y* en *Z*. *X* en *Z* worden in dit geval gebruikt om rechts en links en vooruit en terug aan te geven. Met *Y* wordt omhoog en omlaag aangegeven.
+                </string>
+				<key>Title</key>
+				<string>as</string>
+			</dict>
+		</dict>
+		<key>feature point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Hoe de camera waarneemt</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een van de witte stipjes die je in een AR-tafereel ziet. Hiermee wordt een *kenmerk* aangegeven dat door je iPad als belangrijk wordt gezien voor het visualiseren van het tafereel. Met kenmerkpunten wordt het model weergegeven zoals je iPad dat "ziet" door de cameralens.</string>
+				<key>Title</key>
+				<string>kenmerkpunt</string>
+			</dict>
+		</dict>
+		<key>plane</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/02.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Vlakken zoeken</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een plat digitaal oppervlak om dingen op te zetten.</string>
+				<key>Title</key>
+				<string>vlak</string>
+			</dict>
+		</dict>
+		<key>point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/03.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Een figuurtje is geboren</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>In de wiskunde wordt hiermee een specifiek punt in de ruimte bedoeld. Een punt wordt meestal aangegeven met een *x*-waarde voor de horizontale en een *y*-waarde voor de verticale as.</string>
+				<key>Title</key>
+				<string>punt</string>
+			</dict>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/05.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>Plezier maken!</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>Een "huid" of buitenlaag waarmee een digitaal object in een door de computer gegenereerd tafereel wordt bekleed. Bijvoorbeeld: het lichaam van Hopper heeft een groen met rozerode textuur.</string>
+				<key>Title</key>
+				<string>textuur</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

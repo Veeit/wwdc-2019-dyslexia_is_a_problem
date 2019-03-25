@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Terms</key>
+	<dict>
+		<key>algorithm</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>카메라가 보는 방식</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>문제 해결을 위한 단계별 지침 또는 규칙입니다. 예를 들어, 차 한 잔을 끓이는 단계도 알고리즘이라 할 수 있죠.</string>
+				<key>Title</key>
+				<string>알고리즘</string>
+			</dict>
+		</dict>
+		<key>augment</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>카메라가 보는 방식</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>*증강 현실*은 사용자가 추가한 디지털 대상체와 이미지에 실제 장면을 제공합니다.</string>
+				<key>Title</key>
+				<string>증강</string>
+			</dict>
+		</dict>
+		<key>axis</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>카메라가 보는 방식</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>좌표 공간에서 방향을 표시하는 데 사용되는 가상선입니다. 이전에 *X*와 *Y*를 사용하여 축을 레이블하는 그래프를 본 적이 있으신가요? 3D 공간을 다룰 때에는, *X*, *Y*, *Z*를 사용할 수 있어요. 여기에서는, *X*와 *Z*가 오른쪽과 왼쪽 그리고 앞쪽과 뒤쪽을 나타내고 *Y*는 위쪽과 아래쪽을 나타냅니다.
+                </string>
+				<key>Title</key>
+				<string>축</string>
+			</dict>
+		</dict>
+		<key>feature point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/01.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>카메라가 보는 방식</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>AR 코딩 영역을 통해 보는 여러 개의 흰색 점 중 하나이며 iPad가 코딩 영역을 시각화하는 방식에 중요한 것으로 식별하는 *특징*을 나타냅니다. 특징점은 iPad가 카메라 렌즈를 통해 보는 사물의 형태를 나타냅니다.</string>
+				<key>Title</key>
+				<string>특징점</string>
+			</dict>
+		</dict>
+		<key>plane</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/02.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>평면 만들기</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>물체를 놓을 수 있는 평평한 디지털 표면입니다.</string>
+				<key>Title</key>
+				<string>평면</string>
+			</dict>
+		</dict>
+		<key>point</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/03.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>캐릭터를 생성했습니다!</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>수학에서 사용하는 공간에서의 특정 포인트입니다. 포인트는 가로와 세로를 표현하는 데에 각각 *x* 값과 *y* 값을 사용합니다.</string>
+				<key>Title</key>
+				<string>point</string>
+			</dict>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>FirstUse</key>
+			<dict>
+				<key>PageReference</key>
+				<string>Document1.playgroundchapter/05.playgroundpage</string>
+				<key>_LOCALIZABLE_</key>
+				<dict>
+					<key>Title</key>
+					<string>플레이 시간!</string>
+				</dict>
+			</dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Definition</key>
+				<string>컴퓨터로 생성된 장면에서 디지털 대상체를 감싸는 ‘피부’나 포장입니다. 예를 들어, Hopper의 몸은 초록색과 적분홍색 조직으로 이루어져 있습니다.</string>
+				<key>Title</key>
+				<string>텍스처</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

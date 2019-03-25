@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Name</key>
+	<string>Advanced</string>
+	<key>Pages</key>
+	<array>
+		<string>Advanced1.playgroundpage</string>
+		<string>Advanced2.playgroundpage</string>
+		<string>Advanced3.playgroundpage</string>
+		<string>PuzzleCreator.playgroundpage</string>
+	</array>
+</dict>
+</plist>
