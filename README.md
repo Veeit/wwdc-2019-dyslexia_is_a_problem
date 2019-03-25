@@ -1,4 +1,8 @@
 # wwdc-2019 
+
+The Video about this book:
+[go to video](https://www.youtube.com/watch?v=vyyqGDmHQ9Q)
+
 # About this PlaygroundBook
 
 I wanted to show people the power of ML and explain that dyslexia is a real problem in the modern world. 
