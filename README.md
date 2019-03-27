@@ -17,7 +17,7 @@ I wanted to show people the power of ML and explain that dyslexia is a real prob
  
  "Machine learning (ML) is the scientific study of algorithms [...] to effectively perform a specific task without using explicit instructions, relying on patterns and inference instead." - [Wikipedia](https://en.wikipedia.org/wiki/Machine_learning)
  
- Basically, ML is a simple AI program that learns itself with a specific pattern. The big difference between ML and real AI is that ML learns once in training, than never again.
+ Basically, ML is just a subset of the buzzword **AI** ¯\_(ツ)_/¯
  
  about this Model:
  - 20 epoches
