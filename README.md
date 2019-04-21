@@ -1,4 +1,4 @@
-# wwdc-2019 [Accepted]
+# wwdc-2019 dyslexia is a problem [Accepted]
 
 The Video about this book:
 [go to video](https://www.youtube.com/watch?v=vyyqGDmHQ9Q)
