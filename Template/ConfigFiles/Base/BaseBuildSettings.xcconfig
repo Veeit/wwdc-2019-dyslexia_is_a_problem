@@ -14,14 +14,35 @@
 // By default, the supporting content is stored in the SupportingContent directory next to the xcodeproj.
 SUPPORTING_CONTENT_DIR = $(PROJECT_DIR)/SupportingContent/
 
+// The supporting content for this project is split by platform name.
+// This value is generally the same as PLATFORM_NAME
+PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME = $(__PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_$(__PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL))
+    // Use the platform's regular name if there isn't any override.
+    __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_ = $(PLATFORM_NAME)
+
+    // macOS and Mac Catalyst are handled specially (see below).
+    __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_macosx = macosx
+    __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_maccatalyst = maccatalyst
+
+    // Only set __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL if the value needs to be customized (instead of using the default PLATFORM_NAME).
+    // If PLATFORM_NAME can be used as-is, don't set __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL.
+    __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL = $(__PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL_$(PLATFORM_NAME))
+        // Customize macosx based on the value of IS_MACCATALYST.
+        __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL_macosx = $(__PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL_macosx_$(IS_MACCATALYST))
+            // If IS_MACCATALYST is YES, then use the value maccatalyst.
+            __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL_macosx_YES = maccatalyst
+            // If IS_MACCATALYST is NO (or unset), then use the value macosx.
+            __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL_macosx_NO = macosx
+            __PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL_macosx_ = $(__PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME_IMPL_macosx_NO)
+
 // The path to the directory containing the Swift Playgrounds frameworks (i.e. PlaygroundSupport and PlaygroundBluetooth).
 // By default, these are stored in the PlaygroundsFrameworks directory in the supporting content directory.
-PLAYGROUNDS_FRAMEWORKS_DIR = $(SUPPORTING_CONTENT_DIR)/PlaygroundsFrameworks/$(PLATFORM_NAME)/
+PLAYGROUNDS_FRAMEWORKS_DIR = $(SUPPORTING_CONTENT_DIR)/PlaygroundsFrameworks/$(PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME)/
 
 // The path to the directory containing other supporting frameworks.
 // These are not usable in the Playground Book sources, but are usable in (and used by) LiveViewTestApp.
 // By default, these are stored in the OtherFrameworks directory in the supporting content directory.
-OTHER_FRAMEWORKS_DIR = $(SUPPORTING_CONTENT_DIR)/OtherFrameworks/$(PLATFORM_NAME)/
+OTHER_FRAMEWORKS_DIR = $(SUPPORTING_CONTENT_DIR)/OtherFrameworks/$(PLAYGROUNDBOOKTEMPLATE_PLATFORM_NAME)/
 
 // Ensure we include PLAYGROUNDS_FRAMEWORKS_DIR in the system frameworks search path.
 // All targets should be able to import the Swift Playgrounds frameworks.

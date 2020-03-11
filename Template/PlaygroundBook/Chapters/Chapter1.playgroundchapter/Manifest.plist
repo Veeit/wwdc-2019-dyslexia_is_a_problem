@@ -3,11 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>Dyslexia is a problem</string>
+	<string>ChapterOneName</string>
 	<key>Pages</key>
 	<array>
-		<string>The Seccond Lesson.playgroundpage</string>
-		<string>hangman4.playgroundpage</string>
+		<string>PlaygroundPage.playgroundpage</string>
 	</array>
 </dict>
 </plist>

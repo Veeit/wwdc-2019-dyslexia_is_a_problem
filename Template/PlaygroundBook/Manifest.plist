@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Version</key>
-	<string>4.0</string>
+	<string>7.0</string>
 	<key>ContentIdentifier</key>
 	<string>$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)</string>
 	<key>ContentVersion</key>
@@ -18,10 +18,15 @@
 	<string>PlaygroundBookName</string>
 	<key>Chapters</key>
 	<array>
-		<string>Intro.playgroundchapter</string>
-		<string>AboutTheML.playgroundchapter</string>
 		<string>Chapter1.playgroundchapter</string>
-		<string>outro.playgroundchapter</string>
 	</array>
+	<key>UserAutoImportedAuxiliaryModules</key>
+	<array>
+		<string>BookAPI</string>
+	</array>
+	<key>UserModuleMode</key>
+	<string>Full</string>
+	<key>SupportsDarkMode</key>
+	<true/>
 </dict>
 </plist>

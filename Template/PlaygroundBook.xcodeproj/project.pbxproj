@@ -3,33 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		563AE04D2247B8D300EC5CFE /* ml.png in Resources */ = {isa = PBXBuildFile; fileRef = 563AE04C2247B8D300EC5CFE /* ml.png */; };
-		563AE04F2247C07500EC5CFE /* Blackboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 563AE04E2247C07500EC5CFE /* Blackboard.png */; };
-		563AE0532247CF2200EC5CFE /* game.png in Resources */ = {isa = PBXBuildFile; fileRef = 563AE0522247CF2200EC5CFE /* game.png */; };
-		56D76DDE22479820005DEBD0 /* model in Resources */ = {isa = PBXBuildFile; fileRef = 56D76DD32247981F005DEBD0 /* model */; };
-		56D76DDF22479820005DEBD0 /* smallBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D76DD42247981F005DEBD0 /* smallBackground.png */; };
-		56D76DE022479820005DEBD0 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D76DD82247981F005DEBD0 /* snow.png */; };
-		56D76DE122479820005DEBD0 /* coremldata.bin in Resources */ = {isa = PBXBuildFile; fileRef = 56D76DD92247981F005DEBD0 /* coremldata.bin */; };
-		56D76DE222479820005DEBD0 /* LetterClass_image.mlmodelc in Resources */ = {isa = PBXBuildFile; fileRef = 56D76DDA2247981F005DEBD0 /* LetterClass_image.mlmodelc */; };
-		56D76DE322479820005DEBD0 /* canvasBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D76DDB2247981F005DEBD0 /* canvasBackground.png */; };
-		56D76DE522479D26005DEBD0 /* School.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D76DE422479D26005DEBD0 /* School.png */; };
+		567F9A662417EB95004FDCBD /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F9A652417EB95004FDCBD /* test.swift */; };
+		567F9A692417EBAB004FDCBD /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F9A682417EBAB004FDCBD /* functions.swift */; };
+		567F9A6B2417EBBE004FDCBD /* CoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F9A6A2417EBBE004FDCBD /* CoreML.swift */; };
+		567F9A6C2417EBBE004FDCBD /* CoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F9A6A2417EBBE004FDCBD /* CoreML.swift */; };
+		567F9A6D2417EBBE004FDCBD /* CoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F9A6A2417EBBE004FDCBD /* CoreML.swift */; };
+		567F9A6E2417EBBE004FDCBD /* CoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F9A6A2417EBBE004FDCBD /* CoreML.swift */; };
+		567F9A702417EBCA004FDCBD /* coremldata.bin in Resources */ = {isa = PBXBuildFile; fileRef = 567F9A6F2417EBCA004FDCBD /* coremldata.bin */; };
+		567F9A712417EBCA004FDCBD /* coremldata.bin in Resources */ = {isa = PBXBuildFile; fileRef = 567F9A6F2417EBCA004FDCBD /* coremldata.bin */; };
 		5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */; };
 		5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E086DCF2051DF0F004D8D25 /* Manifest.plist */; };
 		5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */; };
+		5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E551EC42371FC3F00784365 /* Assets.xcassets */; };
+		5E6F7E592367B529008CC191 /* UserModules in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E6F7E582367B51E008CC191 /* UserModules */; };
+		5E6F7E6C2368FC01008CC191 /* BookAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6F7E5C2367B64A008CC191 /* BookAPI.swift */; };
+		5E6F7E7D2368FF29008CC191 /* SharedCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7067A323678E220094BDEF /* SharedCode.swift */; };
+		5E70679F23678DC30094BDEF /* Modules in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5E70679E23678DC00094BDEF /* Modules */; };
 		5EA2E3C02056F35A00416A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */; };
 		5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */; };
-		5EA2E3D42056F36800416A35 /* libBook_Sources.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF2F9AB2054BBF300191409 /* libBook_Sources.a */; };
+		5EA2E3D42056F36800416A35 /* libBookCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EF2F9AB2054BBF300191409 /* libBookCore.a */; };
 		5EA2E3DA2056F8D100416A35 /* PlaygroundBluetooth.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA2E3D82056F88700416A35 /* PlaygroundBluetooth.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EA2E3DB2056F8D100416A35 /* PlaygroundSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EA2E3D72056F88700416A35 /* PlaygroundSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EBEC2F0205B399300975D3F /* LiveViewHost.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBEC2EF205B396500975D3F /* LiveViewHost.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2F97E2054B6E400191409 /* ManifestPlist.strings */; };
 		5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2F9AD2054BBF300191409 /* LiveViewController.swift */; };
 		5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9B62054E6F900191409 /* Chapters */; };
-		5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */ = {isa = PBXBuildFile; fileRef = 5EF2F9A52054BBB200191409 /* Sources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -38,6 +40,8 @@
 			compilerSpec = com.apple.compilers.proxy.script;
 			filePatterns = "*/Manifest.plist";
 			fileType = pattern.proxy;
+			inputFiles = (
+			);
 			isEditable = 1;
 			outputFiles = (
 				"$(DERIVED_FILE_DIR)/$(INPUT_FILE_NAME)",
@@ -47,6 +51,41 @@
 /* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
+		5E6F7E682368FB79008CC191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EF2F9AA2054BBF300191409;
+			remoteInfo = BookCore;
+		};
+		5E6F7E6A2368FB7D008CC191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6F7E602368FB6A008CC191;
+			remoteInfo = BookAPI;
+		};
+		5E6F7E6E2368FD7C008CC191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6F7E602368FB6A008CC191;
+			remoteInfo = BookAPI;
+		};
+		5E6F7E7B2368FF1D008CC191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6F7E602368FB6A008CC191;
+			remoteInfo = BookAPI;
+		};
+		5E6F7E7E2368FF3D008CC191 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E6F7E732368FF15008CC191;
+			remoteInfo = UserModule;
+		};
 		5EA2E3CF2056F36100416A35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E2A7ADD204F611300F4E17A /* Project object */;
@@ -79,7 +118,8 @@
 			files = (
 				5E086DD32051E3A3004D8D25 /* Manifest.plist in Copy Book Contents */,
 				5EF2F9B72054E6FB00191409 /* Chapters in Copy Book Contents */,
-				5EF2F9B82054E6FE00191409 /* Sources in Copy Book Contents */,
+				5E70679F23678DC30094BDEF /* Modules in Copy Book Contents */,
+				5E6F7E592367B529008CC191 /* UserModules in Copy Book Contents */,
 			);
 			name = "Copy Book Contents";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,24 +140,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		563AE04B2247B39600EC5CFE /* WaitingfortheSunrise.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WaitingfortheSunrise.ttf; sourceTree = "<group>"; };
-		563AE04C2247B8D300EC5CFE /* ml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ml.png; sourceTree = "<group>"; };
-		563AE04E2247C07500EC5CFE /* Blackboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blackboard.png; sourceTree = "<group>"; };
-		563AE0522247CF2200EC5CFE /* game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = game.png; sourceTree = "<group>"; };
-		56D76DD12247981F005DEBD0 /* PlaygroundBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaygroundBook-Bridging-Header.h"; sourceTree = "<group>"; };
-		56D76DD22247981F005DEBD0 /* PlaygroundBook-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlaygroundBook-Bridging-Header.h"; sourceTree = "<group>"; };
-		56D76DD32247981F005DEBD0 /* model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = model; sourceTree = "<group>"; };
-		56D76DD42247981F005DEBD0 /* smallBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smallBackground.png; sourceTree = "<group>"; };
-		56D76DD52247981F005DEBD0 /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
-		56D76DD62247981F005DEBD0 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		56D76DD72247981F005DEBD0 /* CoreML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreML.swift; sourceTree = "<group>"; };
-		56D76DD82247981F005DEBD0 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
-		56D76DD92247981F005DEBD0 /* coremldata.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = coremldata.bin; sourceTree = "<group>"; };
-		56D76DDA2247981F005DEBD0 /* LetterClass_image.mlmodelc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = LetterClass_image.mlmodelc; sourceTree = "<group>"; };
-		56D76DDB2247981F005DEBD0 /* canvasBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canvasBackground.png; sourceTree = "<group>"; };
-		56D76DDC2247981F005DEBD0 /* functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
-		56D76DDD2247981F005DEBD0 /* LiveViewSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewSupport.swift; sourceTree = "<group>"; };
-		56D76DE422479D26005DEBD0 /* School.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = School.png; sourceTree = "<group>"; };
+		567F9A652417EB95004FDCBD /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		567F9A672417EBAA004FDCBD /* PlaygroundBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PlaygroundBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		567F9A682417EBAB004FDCBD /* functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
+		567F9A6A2417EBBE004FDCBD /* CoreML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreML.swift; sourceTree = "<group>"; };
+		567F9A6F2417EBCA004FDCBD /* coremldata.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = coremldata.bin; sourceTree = "<group>"; };
 		5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaygroundBook.playgroundbook; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BookOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E086DCD2051DDB8004D8D25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveView.storyboard; sourceTree = "<group>"; };
@@ -127,6 +154,15 @@
 		5E1004BE208E7F6E00BCFE70 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5E2A7AE6204F630600F4E17A /* BaseBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseBuildSettings.xcconfig; sourceTree = "<group>"; };
 		5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewSupport.swift; sourceTree = "<group>"; };
+		5E551EC42371FC3F00784365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E6F7E582367B51E008CC191 /* UserModules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UserModules; sourceTree = "<group>"; };
+		5E6F7E5C2367B64A008CC191 /* BookAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAPI.swift; sourceTree = "<group>"; };
+		5E6F7E612368FB6A008CC191 /* libBookAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBookAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ModuleOverridingBuildSettings.xcconfig; sourceTree = "<group>"; };
+		5E6F7E742368FF15008CC191 /* libUserModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUserModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E70679E23678DC00094BDEF /* Modules */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Modules; sourceTree = "<group>"; };
+		5E7067A323678E220094BDEF /* SharedCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedCode.swift; sourceTree = "<group>"; };
+		5E80DF292342971E00595EB4 /* LiveViewTestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LiveViewTestApp.entitlements; sourceTree = "<group>"; };
 		5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveViewTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EA2E3C92056F35B00416A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LiveViewTestAppLaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -135,18 +171,31 @@
 		5EA2E3D82056F88700416A35 /* PlaygroundBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PlaygroundBluetooth.framework; sourceTree = PLAYGROUNDS_FRAMEWORKS_DIR; };
 		5EBEC2EF205B396500975D3F /* LiveViewHost.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveViewHost.framework; sourceTree = OTHER_FRAMEWORKS_DIR; };
 		5EF2F97D2054B6E400191409 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ManifestPlist.strings; sourceTree = "<group>"; };
-		5EF2F9A52054BBB200191409 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
-		5EF2F9AB2054BBF300191409 /* libBook_Sources.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBook_Sources.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF2F9AB2054BBF300191409 /* libBookCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBookCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2F9AD2054BBF300191409 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		5EF2F9B62054E6F900191409 /* Chapters */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Chapters; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5E6F7E5E2368FB6A008CC191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6F7E712368FF15008CC191 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EA2E3BA2056F35A00416A35 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA2E3D42056F36800416A35 /* libBook_Sources.a in Frameworks */,
+				5EA2E3D42056F36800416A35 /* libBookCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +213,9 @@
 			isa = PBXGroup;
 			children = (
 				5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */,
-				5EF2F9AB2054BBF300191409 /* libBook_Sources.a */,
+				5EF2F9AB2054BBF300191409 /* libBookCore.a */,
+				5E6F7E612368FB6A008CC191 /* libBookAPI.a */,
+				5E6F7E742368FF15008CC191 /* libUserModule.a */,
 				5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */,
 			);
 			name = Products;
@@ -174,7 +225,8 @@
 			isa = PBXGroup;
 			children = (
 				5E086DCF2051DF0F004D8D25 /* Manifest.plist */,
-				5EF2F9A22054BB3E00191409 /* Sources */,
+				5E70679B23678D810094BDEF /* Modules */,
+				5E7067A023678DED0094BDEF /* UserModules */,
 				5EF2F9792054B64800191409 /* PrivateResources */,
 				5EF2F9B62054E6F900191409 /* Chapters */,
 				5EF2F9A42054BB9500191409 /* Supporting Content */,
@@ -194,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */,
+				5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */,
 			);
 			path = Overrides;
 			sourceTree = "<group>";
@@ -230,11 +283,78 @@
 			path = ConfigFiles;
 			sourceTree = "<group>";
 		};
+		5E6F7E5A2367B621008CC191 /* BookAPI.playgroundmodule */ = {
+			isa = PBXGroup;
+			children = (
+				5E6F7E5B2367B632008CC191 /* Sources */,
+			);
+			path = BookAPI.playgroundmodule;
+			sourceTree = "<group>";
+		};
+		5E6F7E5B2367B632008CC191 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E6F7E5C2367B64A008CC191 /* BookAPI.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5E70679B23678D810094BDEF /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5E70679C23678D8A0094BDEF /* BookCore.playgroundmodule */,
+				5E6F7E5A2367B621008CC191 /* BookAPI.playgroundmodule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5E70679C23678D8A0094BDEF /* BookCore.playgroundmodule */ = {
+			isa = PBXGroup;
+			children = (
+				5E70679D23678DA00094BDEF /* Sources */,
+			);
+			path = BookCore.playgroundmodule;
+			sourceTree = "<group>";
+		};
+		5E70679D23678DA00094BDEF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
+				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5E7067A023678DED0094BDEF /* UserModules */ = {
+			isa = PBXGroup;
+			children = (
+				5E7067A123678E010094BDEF /* UserModule.playgroundmodule */,
+			);
+			path = UserModules;
+			sourceTree = "<group>";
+		};
+		5E7067A123678E010094BDEF /* UserModule.playgroundmodule */ = {
+			isa = PBXGroup;
+			children = (
+				5E7067A223678E0D0094BDEF /* Sources */,
+			);
+			path = UserModule.playgroundmodule;
+			sourceTree = "<group>";
+		};
+		5E7067A223678E0D0094BDEF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E7067A323678E220094BDEF /* SharedCode.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		5EA2E3BE2056F35A00416A35 /* LiveViewTestApp */ = {
 			isa = PBXGroup;
 			children = (
 				5EA2E3BF2056F35A00416A35 /* AppDelegate.swift */,
 				5EA2E3C82056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard */,
+				5E80DF292342971E00595EB4 /* LiveViewTestApp.entitlements */,
 				5EA2E3CB2056F35B00416A35 /* Info.plist */,
 			);
 			path = LiveViewTestApp;
@@ -271,41 +391,21 @@
 			children = (
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
+				567F9A652417EB95004FDCBD /* test.swift */,
+				567F9A682417EBAB004FDCBD /* functions.swift */,
+				567F9A6A2417EBBE004FDCBD /* CoreML.swift */,
+				5E551EC42371FC3F00784365 /* Assets.xcassets */,
+				567F9A6F2417EBCA004FDCBD /* coremldata.bin */,
+				567F9A672417EBAA004FDCBD /* PlaygroundBook-Bridging-Header.h */,
 			);
 			path = PrivateResources;
-			sourceTree = "<group>";
-		};
-		5EF2F9A22054BB3E00191409 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				563AE04E2247C07500EC5CFE /* Blackboard.png */,
-				563AE04B2247B39600EC5CFE /* WaitingfortheSunrise.ttf */,
-				56D76DDB2247981F005DEBD0 /* canvasBackground.png */,
-				56D76DD72247981F005DEBD0 /* CoreML.swift */,
-				56D76DD92247981F005DEBD0 /* coremldata.bin */,
-				56D76DDC2247981F005DEBD0 /* functions.swift */,
-				56D76DDA2247981F005DEBD0 /* LetterClass_image.mlmodelc */,
-				56D76DD52247981F005DEBD0 /* LiveViewController.swift */,
-				56D76DDD2247981F005DEBD0 /* LiveViewSupport.swift */,
-				56D76DD32247981F005DEBD0 /* model */,
-				56D76DD22247981F005DEBD0 /* PlaygroundBook-Bridging-Header.h */,
-				56D76DD42247981F005DEBD0 /* smallBackground.png */,
-				56D76DE422479D26005DEBD0 /* School.png */,
-				56D76DD82247981F005DEBD0 /* snow.png */,
-				563AE0522247CF2200EC5CFE /* game.png */,
-				563AE04C2247B8D300EC5CFE /* ml.png */,
-				56D76DD62247981F005DEBD0 /* test.swift */,
-				5EF2F9AD2054BBF300191409 /* LiveViewController.swift */,
-				5E3196F22061DEA40077BBD7 /* LiveViewSupport.swift */,
-				56D76DD12247981F005DEBD0 /* PlaygroundBook-Bridging-Header.h */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		5EF2F9A42054BB9500191409 /* Supporting Content */ = {
 			isa = PBXGroup;
 			children = (
-				5EF2F9A52054BBB200191409 /* Sources */,
+				5E70679E23678DC00094BDEF /* Modules */,
+				5E6F7E582367B51E008CC191 /* UserModules */,
 			);
 			name = "Supporting Content";
 			sourceTree = "<group>";
@@ -325,11 +425,47 @@
 			);
 			dependencies = (
 				5EF2F9B52054BDD100191409 /* PBXTargetDependency */,
+				5E6F7E6F2368FD7C008CC191 /* PBXTargetDependency */,
+				5E6F7E7F2368FF3D008CC191 /* PBXTargetDependency */,
 			);
 			name = PlaygroundBook;
 			productName = PlaygroundBook;
 			productReference = 5E086DC02051C5A7004D8D25 /* PlaygroundBook.playgroundbook */;
 			productType = "com.apple.product-type.bundle";
+		};
+		5E6F7E602368FB6A008CC191 /* BookAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6F7E652368FB6A008CC191 /* Build configuration list for PBXNativeTarget "BookAPI" */;
+			buildPhases = (
+				5E6F7E5D2368FB6A008CC191 /* Sources */,
+				5E6F7E5E2368FB6A008CC191 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E6F7E692368FB79008CC191 /* PBXTargetDependency */,
+			);
+			name = BookAPI;
+			productName = BookAPI;
+			productReference = 5E6F7E612368FB6A008CC191 /* libBookAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5E6F7E732368FF15008CC191 /* UserModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E6F7E782368FF15008CC191 /* Build configuration list for PBXNativeTarget "UserModule" */;
+			buildPhases = (
+				5E6F7E702368FF15008CC191 /* Sources */,
+				5E6F7E712368FF15008CC191 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E6F7E7C2368FF1D008CC191 /* PBXTargetDependency */,
+			);
+			name = UserModule;
+			productName = UserModule;
+			productReference = 5E6F7E742368FF15008CC191 /* libUserModule.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 		5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */ = {
 			isa = PBXNativeTarget;
@@ -346,15 +482,16 @@
 			dependencies = (
 				5EA2E3D02056F36100416A35 /* PBXTargetDependency */,
 				5EA2E3D22056F36300416A35 /* PBXTargetDependency */,
+				5E6F7E6B2368FB7D008CC191 /* PBXTargetDependency */,
 			);
 			name = LiveViewTestApp;
 			productName = LiveViewTestApp;
 			productReference = 5EA2E3BD2056F35A00416A35 /* LiveViewTestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5EF2F9AA2054BBF300191409 /* Book_Sources */ = {
+		5EF2F9AA2054BBF300191409 /* BookCore */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EF2F9AF2054BBF300191409 /* Build configuration list for PBXNativeTarget "Book_Sources" */;
+			buildConfigurationList = 5EF2F9AF2054BBF300191409 /* Build configuration list for PBXNativeTarget "BookCore" */;
 			buildPhases = (
 				5EF2F9A72054BBF300191409 /* Sources */,
 				5EF2F9A82054BBF300191409 /* Frameworks */,
@@ -363,9 +500,9 @@
 			);
 			dependencies = (
 			);
-			name = Book_Sources;
+			name = BookCore;
 			productName = Book_Sources;
-			productReference = 5EF2F9AB2054BBF300191409 /* libBook_Sources.a */;
+			productReference = 5EF2F9AB2054BBF300191409 /* libBookCore.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -374,12 +511,18 @@
 		5E2A7ADD204F611300F4E17A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 1110;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
 					5E086DBF2051C5A7004D8D25 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1130;
+					};
+					5E6F7E602368FB6A008CC191 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					5E6F7E732368FF15008CC191 = {
+						CreatedOnToolsVersion = 11.1;
 					};
 					5EA2E3BC2056F35A00416A35 = {
 						CreatedOnToolsVersion = 9.3;
@@ -387,12 +530,12 @@
 					};
 					5EF2F9AA2054BBF300191409 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 5E2A7AE0204F611300F4E17A /* Build configuration list for PBXProject "PlaygroundBook" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -405,7 +548,9 @@
 			projectRoot = "";
 			targets = (
 				5E086DBF2051C5A7004D8D25 /* PlaygroundBook */,
-				5EF2F9AA2054BBF300191409 /* Book_Sources */,
+				5EF2F9AA2054BBF300191409 /* BookCore */,
+				5E6F7E602368FB6A008CC191 /* BookAPI */,
+				5E6F7E732368FF15008CC191 /* UserModule */,
 				5EA2E3BC2056F35A00416A35 /* LiveViewTestApp */,
 			);
 		};
@@ -416,18 +561,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563AE04D2247B8D300EC5CFE /* ml.png in Resources */,
-				56D76DE222479820005DEBD0 /* LetterClass_image.mlmodelc in Resources */,
-				56D76DDE22479820005DEBD0 /* model in Resources */,
-				563AE04F2247C07500EC5CFE /* Blackboard.png in Resources */,
-				56D76DE022479820005DEBD0 /* snow.png in Resources */,
-				563AE0532247CF2200EC5CFE /* game.png in Resources */,
-				56D76DE322479820005DEBD0 /* canvasBackground.png in Resources */,
 				5EF2F97C2054B6E400191409 /* ManifestPlist.strings in Resources */,
-				56D76DE522479D26005DEBD0 /* School.png in Resources */,
-				56D76DE122479820005DEBD0 /* coremldata.bin in Resources */,
+				567F9A702417EBCA004FDCBD /* coremldata.bin in Resources */,
+				5E551EC52371FC3F00784365 /* Assets.xcassets in Resources */,
 				5E086DCA2051DDAE004D8D25 /* LiveView.storyboard in Resources */,
-				56D76DDF22479820005DEBD0 /* smallBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EA2E3CA2056F35B00416A35 /* LiveViewTestAppLaunchScreen.storyboard in Resources */,
+				567F9A712417EBCA004FDCBD /* coremldata.bin in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,16 +594,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "PLAYGROUND_BOOK_PATH=\"${BUILT_PRODUCTS_DIR}/${PLAYGROUND_BOOK_FILE_NAME}.playgroundbook\"\nPRIVATERESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PrivateResources\"\nPUBLICRESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PublicResources\"\n\nDESTINATION_FOLDER_PATH=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nif [[ -d \"${PRIVATERESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PRIVATERESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nif [[ -d \"${PUBLICRESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PUBLICRESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nmkdir -p \"${DERIVED_FILE_DIR}\"\ntouch \"${DERIVED_FILE_DIR}/embed-resources-marker\"";
+			shellScript = "PLAYGROUND_BOOK_PATH=\"${BUILT_PRODUCTS_DIR}/${PLAYGROUND_BOOK_FILE_NAME}.playgroundbook\"\nPRIVATERESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PrivateResources\"\nPUBLICRESOURCES_FOLDER_PATH=\"${PLAYGROUND_BOOK_PATH}/Contents/PublicResources\"\n\nDESTINATION_FOLDER_PATH=\"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}\"\n\nif [[ -d \"${PRIVATERESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PRIVATERESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nif [[ -d \"${PUBLICRESOURCES_FOLDER_PATH}\" ]]; then\n    ditto \"${PUBLICRESOURCES_FOLDER_PATH}\" \"${DESTINATION_FOLDER_PATH}\"\nfi\n\nmkdir -p \"${DERIVED_FILE_DIR}\"\ntouch \"${DERIVED_FILE_DIR}/embed-resources-marker\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5E6F7E5D2368FB6A008CC191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6F7E6C2368FC01008CC191 /* BookAPI.swift in Sources */,
+				567F9A6C2417EBBE004FDCBD /* CoreML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E6F7E702368FF15008CC191 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6F7E7D2368FF29008CC191 /* SharedCode.swift in Sources */,
+				567F9A6D2417EBBE004FDCBD /* CoreML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EA2E3B92056F35A00416A35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5EA2E3C02056F35A00416A35 /* AppDelegate.swift in Sources */,
+				567F9A6E2417EBBE004FDCBD /* CoreML.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,14 +630,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				567F9A6B2417EBBE004FDCBD /* CoreML.swift in Sources */,
 				5E3196F32061DEA40077BBD7 /* LiveViewSupport.swift in Sources */,
+				567F9A662417EB95004FDCBD /* test.swift in Sources */,
 				5EF2F9AE2054BBF300191409 /* LiveViewController.swift in Sources */,
+				567F9A692417EBAB004FDCBD /* functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5E6F7E692368FB79008CC191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5EF2F9AA2054BBF300191409 /* BookCore */;
+			targetProxy = 5E6F7E682368FB79008CC191 /* PBXContainerItemProxy */;
+		};
+		5E6F7E6B2368FB7D008CC191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E6F7E602368FB6A008CC191 /* BookAPI */;
+			targetProxy = 5E6F7E6A2368FB7D008CC191 /* PBXContainerItemProxy */;
+		};
+		5E6F7E6F2368FD7C008CC191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E6F7E602368FB6A008CC191 /* BookAPI */;
+			targetProxy = 5E6F7E6E2368FD7C008CC191 /* PBXContainerItemProxy */;
+		};
+		5E6F7E7C2368FF1D008CC191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E6F7E602368FB6A008CC191 /* BookAPI */;
+			targetProxy = 5E6F7E7B2368FF1D008CC191 /* PBXContainerItemProxy */;
+		};
+		5E6F7E7F2368FF3D008CC191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E6F7E732368FF15008CC191 /* UserModule */;
+			targetProxy = 5E6F7E7E2368FF3D008CC191 /* PBXContainerItemProxy */;
+		};
 		5EA2E3D02056F36100416A35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E086DBF2051C5A7004D8D25 /* PlaygroundBook */;
@@ -488,12 +673,12 @@
 		};
 		5EA2E3D22056F36300416A35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EF2F9AA2054BBF300191409 /* Book_Sources */;
+			target = 5EF2F9AA2054BBF300191409 /* BookCore */;
 			targetProxy = 5EA2E3D12056F36300416A35 /* PBXContainerItemProxy */;
 		};
 		5EF2F9B52054BDD100191409 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EF2F9AA2054BBF300191409 /* Book_Sources */;
+			target = 5EF2F9AA2054BBF300191409 /* BookCore */;
 			targetProxy = 5EF2F9B42054BDD100191409 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -531,10 +716,8 @@
 			baseConfigurationReference = 5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0;
-				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				CURRENT_PROJECT_VERSION = "$(PLAYGROUND_BOOK_CONTENT_VERSION)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				INSTALL_PATH = /;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -545,9 +728,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)";
 				PRODUCT_NAME = "$(PLAYGROUND_BOOK_FILE_NAME)";
 				SKIP_INSTALL = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "PlaygroundBook/Sources/PlaygroundBook-Bridging-Header.h";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaygroundBook/PrivateResources/PlaygroundBook-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -556,10 +740,8 @@
 			baseConfigurationReference = 5E086DC72051DD03004D8D25 /* BookOverridingBuildSettings.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1.0;
-				DEVELOPMENT_TEAM = 7RPD69GC7T;
+				CURRENT_PROJECT_VERSION = "$(PLAYGROUND_BOOK_CONTENT_VERSION)";
 				INSTALL_PATH = /;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -569,8 +751,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PLAYGROUND_BOOK_CONTENT_IDENTIFIER)";
 				PRODUCT_NAME = "$(PLAYGROUND_BOOK_FILE_NAME)";
 				SKIP_INSTALL = NO;
-				SWIFT_OBJC_BRIDGING_HEADER = "PlaygroundBook/Sources/PlaygroundBook-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PlaygroundBook/PrivateResources/PlaygroundBook-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -624,13 +807,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.1;
 			};
 			name = Debug;
 		};
@@ -679,12 +862,40 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.1;
+			};
+			name = Release;
+		};
+		5E6F7E662368FB6A008CC191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5E6F7E672368FB6A008CC191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		5E6F7E792368FF15008CC191 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5E6F7E7A2368FF15008CC191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */;
+			buildSettings = {
 			};
 			name = Release;
 		};
@@ -692,8 +903,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = LiveViewTestApp/LiveViewTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				INFOPLIST_FILE = LiveViewTestApp/Info.plist;
@@ -702,8 +915,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveViewTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_PREFIX).LiveViewTestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"\"$(OTHER_FRAMEWORKS_DIR)\"",
@@ -716,8 +930,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_ENTITLEMENTS = LiveViewTestApp/LiveViewTestApp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LiveViewTestApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -725,8 +941,9 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-all_load";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.LiveViewTestApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_IDENTIFIER_PREFIX).LiveViewTestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
 					"\"$(OTHER_FRAMEWORKS_DIR)\"",
 					"$(inherited)",
@@ -737,27 +954,15 @@
 		};
 		5EF2F9B02054BBF300191409 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				GCC_DYNAMIC_NO_PIC = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 			};
 			name = Debug;
 		};
 		5EF2F9B12054BBF300191409 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6F7E6D2368FC9A008CC191 /* ModuleOverridingBuildSettings.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Manual;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -782,6 +987,24 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		5E6F7E652368FB6A008CC191 /* Build configuration list for PBXNativeTarget "BookAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6F7E662368FB6A008CC191 /* Debug */,
+				5E6F7E672368FB6A008CC191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E6F7E782368FF15008CC191 /* Build configuration list for PBXNativeTarget "UserModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E6F7E792368FF15008CC191 /* Debug */,
+				5E6F7E7A2368FF15008CC191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5EA2E3CE2056F35B00416A35 /* Build configuration list for PBXNativeTarget "LiveViewTestApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -791,7 +1014,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EF2F9AF2054BBF300191409 /* Build configuration list for PBXNativeTarget "Book_Sources" */ = {
+		5EF2F9AF2054BBF300191409 /* Build configuration list for PBXNativeTarget "BookCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EF2F9B02054BBF300191409 /* Debug */,
